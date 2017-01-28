@@ -1,6 +1,6 @@
 Asan = require './asan'
 asan = new Asan
-Raspicam = require 'raspicam'
+Raspicam = require 'raspicam-js'
 log4js = require 'log4js'
 log4js.loadAppender('file')
 log4js.addAppender log4js.appenders.file('logs/asan.log'), 'asan'
