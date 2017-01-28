@@ -1,0 +1,7 @@
+{
+    "uid": "asan-logger",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "/home/pi/asan/asan-basic-flight-computer"
+}
